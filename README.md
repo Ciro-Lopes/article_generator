@@ -70,7 +70,6 @@ Frontend disponível em `http://localhost:5173`
 - Gerenciamento de artigos (criar, listar, editar, excluir)
 - Interface limpa e responsiva com Bootstrap 5
 - Banco de dados SQLite (facilmente migrável para PostgreSQL)
-- Publicação no WordPress via REST API
 
 ## Documentação da API
 
@@ -116,7 +115,3 @@ Com o backend rodando, acesse:
 - Bootstrap Icons (npm)
 - React Router 6
 - Axios
-
-## License
-
-MIT
