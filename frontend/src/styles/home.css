@@ -1,0 +1,15 @@
+/* Adjust spacing for the Features section */
+.features-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff; /* Fundo branco */
+  color: #000000; /* Texto preto */
+}
+
+.features-section h2 {
+  margin-bottom: 2rem;
+}
+
+.features-section .card {
+  margin-bottom: 1rem;
+}

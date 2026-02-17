@@ -1,0 +1,81 @@
+/* =====================
+   Global Responsive Styles
+   ===================== */
+
+/* Smooth transitions globally */
+* {
+  box-sizing: border-box;
+}
+
+/* Ensure images never overflow their containers */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hero section title scalable on small screens */
+@media (max-width: 576px) {
+  .display-5 {
+    font-size: 1.75rem;
+  }
+
+  /* Stack hero buttons full width on xs */
+  .hero-buttons .btn {
+    width: 100%;
+  }
+}
+
+/* Utility: make Bootstrap buttons full-width only on xs */
+@media (min-width: 576px) {
+  .w-sm-auto {
+    width: auto !important;
+  }
+}
+
+/* Article content readability */
+.article-content {
+  line-height: 1.8;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.article-content h1,
+.article-content h2,
+.article-content h3,
+.article-content h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.article-content p {
+  margin-bottom: 1rem;
+}
+
+/* Card title truncation on small screens */
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 1rem;
+  }
+}
+
+/* Navbar: smaller padding on mobile */
+@media (max-width: 576px) {
+  .navbar .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Form sections responsive padding */
+@media (max-width: 768px) {
+  .card-body {
+    padding: 1rem !important;
+  }
+}
+
+/* How It Works steps spacing */
+@media (min-width: 768px) {
+  .how-it-works-col {
+    padding: 0 1.5rem;
+  }
+}
