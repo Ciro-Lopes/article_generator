@@ -116,7 +116,3 @@ With the backend running, access:
 - Bootstrap Icons (npm)
 - React Router 6
 - Axios
-
-## License
-
-MIT
